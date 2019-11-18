@@ -7,10 +7,10 @@ You can read the document and see more details [here](https://docs.katalon.com/k
 Join the Katalon Community / Forum if there are things you want to discuss https://forum.katalon.com/
 
 ## Apply Smart Wait to all elements in a project
-To enable the Smart Wait function for the whole project in Katalon Studio, navigate to ***Project > Settings > Execution > Select Enable in Default Smart Wait.***
+To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution > Select ***Enable*** in Default Smart Wait.
 
 ## Apply Smart Wait to specific elements in a script
-If you want to use Smart Wait function for certain test elements only, it's important that you ***disable*** Default Smart Wait in Project Settings. Navigate to ***Project > Settings > Execution> Select Disable in Default Smart Wait***.
+If you want to use Smart Wait function for certain test elements only, it's important that you ***disable*** Default Smart Wait in Project Settings. Navigate to Project > Settings > Execution> Select ***Disable*** in Default Smart Wait.
 Then use "enableSmartWait" and "disableSmartWait" keywords to enable and disable this function respectively.
 
 ### enableSmartWait
