@@ -22,8 +22,9 @@ Description: Enable the Smart Wait function when it's disabled by default in pro
 ```
 Keyword name: disableSmartWait
 Description: Disable the Smart Wait function when it's enabled by using the above keyword
-Example:
 ```
+
+### Example:
 ```java
 WebUI.openBrowser('')
 
