@@ -22,6 +22,25 @@ Description: Enable the Smart Wait function when it's disabled by default in pro
 ```
 Keyword name: disableSmartWait
 Description: Disable the Smart Wait function when it's enabled by using the above keyword
+Example:
+```
+```java
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html')
+
+'Enable the Smart Wait function when it\'s disabled by default in project settings.'
+WebUI.enableSmartWait()
+
+WebUI.click(findTestObject('Page_AjaxDemo/a_Page 1'))
+
+WebUI.verifyTextPresent('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.', 
+    false)
+
+'Disable the Smart Wait function when it\'s enabled by using the above keyword.'
+WebUI.disableSmartWait()
+
+WebUI.closeBrowser()
 ```
 
 > Note: The Smart Wait function is only available in Chrome and Firefox.
