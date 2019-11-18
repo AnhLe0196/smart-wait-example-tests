@@ -1,7 +1,10 @@
-# Smart Wait Example Test Cases
+# Smart Wait Example Project
+Welcome to the Smart Wait Example Project repository!<br>
+A smart waiting function is introduced in Katalon Studio version 7. The Smart Wait will tell the WebDriver to wait for the web page to become static before any operations perform.<br>
+You can read the document and see more details [here](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 
-A sample test cases for using Smart Wait, a smart waiting function is introduced in Katalon Studio version 7.
-The Smart Wait will tell the WebDriver to wait for the web page to become static before any operations perform.
+## Discussion/Support
+Join the Katalon Comunity if there are things you want to discuss https://forum.katalon.com/
 
 ## Apply Smart Wait to all elements in a project
 To enable the Smart Wait function for the whole project in Katalon Studio, navigate to ***Project > Settings > Execution > Select Enable in Default Smart Wait.***
@@ -21,6 +24,5 @@ Description: Enable the Smart Wait function when it's disabled by default in pro
 Keyword name: disableSmartWait
 Description: Disable the Smart Wait function when it's enabled by using the above keyword
 ```
-> Note: The Smart Wait function is only available in Chrome and Firefox.
 
-See more details at [Docs - Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html)
+> Note: The Smart Wait function is only available in Chrome and Firefox.
