@@ -24,6 +24,8 @@ WebUI.navigateToUrl('https://demo.tutorialzine.com/2009/09/simple-ajax-website-j
 
 WebUI.click(findTestObject('Page_AjaxDemo/a_Page 1'))
 
+WebUI.delay(10)
+
 WebUI.verifyTextPresent('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.', 
     false)
 
