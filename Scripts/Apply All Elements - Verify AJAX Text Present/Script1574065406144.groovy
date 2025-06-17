@@ -29,6 +29,10 @@ WebUI.verifyTextPresent('Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 WebUI.click(findTestObject('Page_AjaxDemo/a_Page 2'))
 
+String actualText = WebUI.getText(findTestObject('Page_AjaxDemo/div_Page2_Content'))
+
+WebUI.verifyMatch(actualText, 'Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.', true)
+
 WebUI.verifyElementText(findTestObject('Page_AjaxDemo/div_Page2_Content'), 'Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.')
 
 WebUI.closeBrowser()
